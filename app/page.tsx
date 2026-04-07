@@ -67,8 +67,14 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative flex flex-col items-center justify-center min-h-screen px-6 pt-24 pb-16 overflow-hidden">
-        {/* Background texture */}
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(255,255,255,0.03)_1px,_transparent_1px)] bg-[size:24px_24px]" />
+        {/* Background image */}
+        <Image
+          src="/hero-bg.png"
+          alt=""
+          fill
+          className="object-cover opacity-[0.07]"
+          priority
+        />
 
         <div className="relative z-10 flex flex-col items-center text-center max-w-3xl">
           <div className="logo-pulse mb-8">

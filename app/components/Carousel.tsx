@@ -4,10 +4,10 @@ import Image from "next/image";
 import { useState, useCallback } from "react";
 
 const images = [
+  { src: "/work4.jpg", alt: "Textured crop with skin fade" },
   { src: "/work1.png", alt: "Clean fade with slicked back style" },
   { src: "/work2.png", alt: "Sam Da Barber portrait" },
   { src: "/work3.png", alt: "Sam Da Barber style" },
-  { src: "/work4.jpg", alt: "Textured crop with skin fade" },
   { src: "/work5.jpg", alt: "Curly crop with mid fade" },
 ];
 
