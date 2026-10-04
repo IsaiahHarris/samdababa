@@ -114,17 +114,28 @@ export default function Home() {
 
       {/* About Section */}
       <section className="py-24 px-6 border-t border-white/5">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8 uppercase tracking-wider">
-            About
-          </h2>
-          <p className="text-gray-400 text-lg leading-relaxed max-w-2xl mx-auto">
-            Aloha! My name is Sam, and I&apos;ve been barbering for 3 years.
-            It&apos;s not just my job &mdash; it&apos;s my trade. This is the best
-            feeling I get, knowing that I&apos;m providing quality service. So when
-            you come in to see me, you&apos;re guaranteed authentic, precision cuts.
-            As a barber, it&apos;s my job to help you look good and feel great!
-          </p>
+        <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+          <div className="relative aspect-[3/4] w-full max-w-sm mx-auto overflow-hidden rounded-2xl border border-white/10 bg-black">
+            <Image
+              src="/sam.jpg"
+              alt="Sam, the barber behind Sam Daaa Barber"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 384px"
+            />
+          </div>
+          <div className="text-center md:text-left">
+            <h2 className="text-3xl md:text-4xl font-bold mb-8 uppercase tracking-wider">
+              About
+            </h2>
+            <p className="text-gray-400 text-lg leading-relaxed">
+              Aloha! My name is Sam, and I&apos;ve been barbering for 3 years.
+              It&apos;s not just my job &mdash; it&apos;s my trade. This is the best
+              feeling I get, knowing that I&apos;m providing quality service. So when
+              you come in to see me, you&apos;re guaranteed authentic, precision cuts.
+              As a barber, it&apos;s my job to help you look good and feel great!
+            </p>
+          </div>
         </div>
       </section>
 
